@@ -1007,6 +1007,9 @@ body:not(.theme-preset-active) footer#colophon {
 
 .ownit .circular {
   border-radius: 50%;
-  border: solid #0099ff 3px;
+  border: solid #0076ff 3px;
 }
 
+header#masthead {
+  background-color: #0076ff ;
+}

@@ -15,9 +15,50 @@
     if(!$enable_vc ) {
     ?>
     <header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php if (!is_front_page()) {the_title( '<h1 class="entry-title">', '</h1>' );}  ?>
 	</header><!-- .entry-header -->
     <?php } ?>
+
+	<!-- Carsoule Start-->
+	<div id="carouselExampleIndicators" class="<?php  is_front_page() ? print('carousel slide')  : print('d-none')  ?>" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/01.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/02.jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/03.jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/04.jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/05.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/06.jpg" alt="Third slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a> 
+	</div>
+	<!-- Carsoule End -->
 
 	<div class="entry-content">
 		<?php
