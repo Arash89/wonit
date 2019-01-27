@@ -31,21 +31,43 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/01.jpg" alt="First slide">
+				<div class="ownit-overlay-left">
+					<ul>
+					<li>
+						Provide comfortable homes to support influx of Talent into Silicon Valley		
+					</li>
+					<li>
+						Incentivize Homeowners to optimize space & be financially independent
+					</li>	
+					<li>
+						Promote Green ADU builders
+					</li>
+					<li>
+						Support Community by providing affordable housing to distinguished teachers
+					</li>
+	
+					</ul>
+				</div>
+				<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/01.jpg" alt="First slide">
 			</div>
 			<div class="carousel-item">
+			<div class="ownit-overlay-right"></div>
 			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/02.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
+			<div class="ownit-overlay-left"></div>
 			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/03.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
+			<div class="ownit-overlay-left"></div>
 			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/04.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
+			<div class="ownit-overlay-right"></div>
 			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/05.jpg" alt="Third slide">
 			</div>
 			<div class="carousel-item">
+			<div class="ownit-overlay-left"></div>
 			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/06.jpg" alt="Third slide">
 			</div>
 		</div>
