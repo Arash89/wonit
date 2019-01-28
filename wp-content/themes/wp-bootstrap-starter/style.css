@@ -1014,7 +1014,7 @@ header#masthead {
   background-color: #0076ff ;
 }
 
-@keyframes example {
+@keyframes ovrlayOwnit {
   from {width: 0%;}
   to {width: 50%;}
 }
@@ -1028,7 +1028,7 @@ header#masthead {
 }
 
 .ownit-overlay-right, .ownit-overlay-left {
-  animation-name: example;
+  animation-name: ovrlayOwnit;
   animation-duration: 0.5s;
   animation-delay: 1s;
   animation-iteration-count: 1;
@@ -1038,4 +1038,39 @@ header#masthead {
   height: 100%;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.7);
+  width: 0%;
+}
+
+@keyframes hideAnimationContent {
+  from {
+    left: -2000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.ownit-overlay-right ul , .ownit-overlay-left ul  {
+  animation-name: hideAnimationContent;
+  animation-delay: 1.5s;
+  animation-duration: 0s;
+  animation-fill-mode: forwards;
+  position: relative;
+  left: -2000px;
+}
+
+.ownit-Mortgage .row {
+  background-image: url("http://datapakt.com/wp-content/uploads/2019/01/07.jpg");
+  width: 100%;
+  justify-content: center;
+}
+
+.ownit-Mortgage .row .card {
+  width: 33%;
+  border: none;
+}
+
+.ownit-carousel .ownit-Mortgage .row.benefit-cards {
+  margin: auto;
+  padding: 80px 30px;
 }

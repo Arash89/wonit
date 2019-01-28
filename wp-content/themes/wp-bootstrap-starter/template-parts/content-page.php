@@ -20,7 +20,7 @@
     <?php } ?>
 
 	<!-- Carsoule Start-->
-	<div id="carouselExampleIndicators" class="<?php  is_front_page() ? print('carousel slide')  : print('d-none')  ?>" data-ride="carousel">
+	<div id="carouselExampleIndicators" class="<?php  is_front_page() ? print('carousel slide')  : print('d-none')  ?>" data-interval="7000" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -29,9 +29,74 @@
 			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<div class="ownit-overlay-left">
+		<div class="carousel-inner ownit-carousel">
+			<div class="carousel-item active ownit-Mortgage">
+				<!-- Row start -->
+				<div class="row benefit-cards">
+
+					<div class="card">
+						<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Cras justo odio</li>
+						</ul>
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">Dapibus ac facilisis in</li>
+						</ul>
+					</div>
+
+					<div class="card">
+						<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Cras justo odio</li>
+						</ul>
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">Dapibus ac facilisis in</li>
+						</ul>
+					</div>
+
+					<div class="card">
+						<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Cras justo odio</li>
+						</ul>
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">Dapibus ac facilisis in</li>
+						</ul>
+					</div>
+
+				</div>
+				<!-- Row End -->
+				<!-- <img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/07.jpg" alt="First slide"> -->
+			</div>
+			<div class="carousel-item">
+			<div class="ownit-overlay-right">
 					<ul>
 					<li>
 						Provide comfortable homes to support influx of Talent into Silicon Valley		
@@ -48,14 +113,27 @@
 	
 					</ul>
 				</div>
-				<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/01.jpg" alt="First slide">
-			</div>
-			<div class="carousel-item">
-			<div class="ownit-overlay-right"></div>
+
 			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/02.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
-			<div class="ownit-overlay-left"></div>
+			<div class="ownit-overlay-left">
+					<ul>
+					<li>
+						Provide comfortable homes to support influx of Talent into Silicon Valley		
+					</li>
+					<li>
+						Incentivize Homeowners to optimize space & be financially independent
+					</li>	
+					<li>
+						Promote Green ADU builders
+					</li>
+					<li>
+						Support Community by providing affordable housing to distinguished teachers
+					</li>
+	
+					</ul>
+				</div>
 			<img class="d-block w-100" src="http://datapakt.com/wp-content/uploads/2019/01/03.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
