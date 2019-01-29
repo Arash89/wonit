@@ -20,7 +20,7 @@
     <?php } ?>
 
 	<!-- Carsoule Start-->
-	<div id="carouselExampleIndicators" class="<?php  is_front_page() ? print('carousel slide')  : print('d-none')  ?>" data-interval="7000" data-ride="carousel">
+	<div id="carouselExampleIndicators" class="<?php  is_front_page() ? print('carousel slide')  : print('d-none')  ?>" data-interval="0" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -35,60 +35,57 @@
 				<div class="row benefit-cards">
 
 					<div class="card">
-						<img class="card-img-top" src="..." alt="Card image cap">
+						<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p class="card-text">No Extra Payments <span class="invisible">With Extra Payments​</span></p>
+							<p class="card-text">$5,066.85 ​Monthly P&I Payment</p>
+							<p> $5,066.85 including other</p>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">30 years ​pay-off time</li>
 						</ul>
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p class="card-text">$824,067.12</p>
+							<p class="card-text">Interest Paid</p>
+							<p class="card-text">7 years 8 months</p>
+							<p class="card-text">Time Saved Making Extra Payments</p>
 						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
-							<li class="list-group-item">Dapibus ac facilisis in</li>
-						</ul>
 					</div>
 
 					<div class="card">
-						<img class="card-img-top" src="..." alt="Card image cap">
+						<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p class="card-text">$1,000/month​ With Extra Payments​</p>
+							<p class="card-text">$6.066.85​ Equivalent Monthly P&I Payment​</p>
+							<p>$6.066.85 including other expenses​</p>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">22 years 4 months​ Pay-off time​</li>
 						</ul>
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p class="card-text">$824,067.12</p>
+							<p class="card-text">Interest Paid</p>
+							<p class="card-text">$226,528.53​</p>
+							<p class="card-text">Total Intrest Savings with extra Payments​</p>
 						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
-							<li class="list-group-item">Dapibus ac facilisis in</li>
-						</ul>
 					</div>
 
 					<div class="card">
-						<img class="card-img-top" src="..." alt="Card image cap">
+						<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p class="card-text">$2,000/month​ With Extra Payments​</p>
+							<p class="card-text">$7.066.85​ Equivalent Monthly P&I Payment​</p>
+							<p>$7.066.85 including other expenses​</p>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">18 years 1 months​ Pay-off time​</li>
 						</ul>
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p class="card-text">$824,067.12</p>
+							<p class="card-text">Interest Paid</p>
+							<p class="card-text">$343,530.31​</p>
+							<p class="card-text">Total Intrest Savings with extra Payments​</p>
 						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
-							<li class="list-group-item">Dapibus ac facilisis in</li>
-						</ul>
 					</div>
 
 				</div>

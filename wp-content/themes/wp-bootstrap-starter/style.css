@@ -990,6 +990,12 @@ body:not(.theme-preset-active) footer#colophon {
   }
 }
 
+
+@font-face {
+  font-family: ownit;
+  src: url("assets/OpenSans-Light.ttf");
+}
+
 .row.ownit {
   justify-content: space-between;
 }
@@ -1073,4 +1079,26 @@ header#masthead {
 .ownit-carousel .ownit-Mortgage .row.benefit-cards {
   margin: auto;
   padding: 80px 30px;
+}
+
+.benefit-cards .card {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+}
+
+.benefit-cards .card li {
+  background-color: rgba(0,0,0,0.7);
+  color: inherit;
+}
+
+.benefit-cards .card h5 {
+  color: inherit;
+}
+
+.benefit-cards .card-body {
+  padding: 0px;
+}
+
+body {
+  font-family: ownit;
 }
